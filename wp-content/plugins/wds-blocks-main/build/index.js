@@ -5707,6 +5707,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_starter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./blocks/starter */ "./src/blocks/starter/index.js");
 /* harmony import */ var _variations_cover__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./variations/cover */ "./src/variations/cover/index.js");
 /* harmony import */ var _variations_columns__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./variations/columns */ "./src/variations/columns/index.js");
+/* harmony import */ var tailwindcss_tailwind_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tailwindcss/tailwind.css */ "./node_modules/tailwindcss/tailwind.css");
 /**
  * WDS Blocks
  *
@@ -5723,6 +5724,8 @@ __webpack_require__.r(__webpack_exports__);
 
  // Block Variations
 
+
+ //Tailwind
 
 
 
@@ -6791,6 +6794,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	} else {}
 }());
+
+
+/***/ }),
+
+/***/ "./node_modules/tailwindcss/tailwind.css":
+/*!***********************************************!*\
+  !*** ./node_modules/tailwindcss/tailwind.css ***!
+  \***********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
 
 
 /***/ }),

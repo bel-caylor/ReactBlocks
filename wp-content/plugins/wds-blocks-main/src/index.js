@@ -18,3 +18,6 @@ import './blocks/starter';
 // Block Variations
 import './variations/cover';
 import './variations/columns';
+
+//Tailwind
+import "tailwindcss/tailwind.css"
