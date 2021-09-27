@@ -90,6 +90,15 @@ function register_block() {
 		]
 	);
 
+	register_block_type(
+		'wdsblocks/test',
+		[
+			'editor_script' => 'wdsblocks-editor-script',
+			'editor_style'  => 'wdsblocks-editor-style',
+			'style'         => 'wdsblocks-style',
+		]
+	);
+
 	// Register frontend script.
 	if ( file_exists( plugin_dir_path( __FILE__ ) . $frontend_script ) ) {
 		wp_enqueue_script(

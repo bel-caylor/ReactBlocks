@@ -14,6 +14,7 @@ import './blocks/accordion-item';
 import './blocks/carousel';
 import './blocks/carousel-slide';
 import './blocks/starter';
+import './blocks/test';
 
 // Block Variations
 import './variations/cover';

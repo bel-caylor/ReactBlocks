@@ -10,44 +10,44 @@ const { registerBlockType } = wp.blocks;
 // import logoWhiteURL from '../bv-logo-white.svg';
 
 // https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/block-registration/
-registerBlockType('test/static', {
-  title: __('Like & Subscribe', 'test'),
-  // icon: { src: Logo },
-  category: 'test',
+registerBlockType( 'test/static', {
+	title: __( 'Like & Subscribe', 'test' ),
+	// icon: { src: Logo },
+	category: 'test',
 
-  // https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/block-edit-save/
-  edit() {
-    return (
-      <div className='test-block test-static'>
-        <figure className='test-logo'>
-          <img src={logoWhiteURL} alt='logo' />
-        </figure>
-        <div className='test-info'>
-          <h3 className='test-title'>
-            {__('The Binaryville Podcast', 'test')}
-          </h3>
-          <div className='test-cta'>
-            <a href='#'>{__('Like & Subscribe!', 'test')}</a>
-          </div>
-        </div>
-      </div>
-    );
-  },
-  save() {
-    // return (
-    //   <div className='test-block test-static'>
-    //     <figure className='test-logo'>
-    //       <img src={logoWhiteURL} alt='logo' />
-    //     </figure>
-    //     <div className='test-info'>
-    //       <h3 className='test-title'>
-    //         {__('The Binaryville Podcast', 'test')}
-    //       </h3>
-    //       <div className='test-cta'>
-    //         <a href='/subscribe'>{__('Like & Subscribe!', 'test')}</a>
-    //       </div>
-    //     </div>
-    //   </div>
-    // );
-  }
-});
+	// https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/block-edit-save/
+	edit() {
+		return (
+			<div className="test-block test-static">
+				<figure className="test-logo">
+					<img src={ logoWhiteURL } alt="logo" />
+				</figure>
+				<div className="test-info">
+					<h3 className="test-title">
+						{ __( 'The Binaryville Podcast', 'test' ) }
+					</h3>
+					<div className="test-cta">
+						<a href="#">{ __( 'Like & Subscribe!', 'test' ) }</a>
+					</div>
+				</div>
+			</div>
+		);
+	},
+	save() {
+		// return (
+		//   <div className='test-block test-static'>
+		//     <figure className='test-logo'>
+		//       <img src={logoWhiteURL} alt='logo' />
+		//     </figure>
+		//     <div className='test-info'>
+		//       <h3 className='test-title'>
+		//         {__('The Binaryville Podcast', 'test')}
+		//       </h3>
+		//       <div className='test-cta'>
+		//         <a href='/subscribe'>{__('Like & Subscribe!', 'test')}</a>
+		//       </div>
+		//     </div>
+		//   </div>
+		// );
+	},
+} );

@@ -23,9 +23,13 @@
 	},
 	"devDependencies": {
 		"@arkweid/lefthook": "^0.7.6",
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"@babel/preset-react": "^7.14.5",
 		"@wordpress/prettier-config": "^1.1.0",
 		"@wordpress/scripts": "^18.0.1",
 		"autoprefixer": "^10.3.4",
+		"babel-loader": "^8.2.2",
 		"browser-sync": "^2.27.5",
 		"clean-webpack-plugin": "^4.0.0",
 		"copy-webpack-plugin": "^9.0.1",

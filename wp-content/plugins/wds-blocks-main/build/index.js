@@ -5692,6 +5692,95 @@ const INNER_BLOCKS_PROPS = (0,_wordpress_hooks__WEBPACK_IMPORTED_MODULE_0__.appl
 
 /***/ }),
 
+/***/ "./src/blocks/test/index.js":
+/*!**********************************!*\
+  !*** ./src/blocks/test/index.js ***!
+  \**********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _utils_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/config */ "./src/utils/config.js");
+
+
+const {
+  registerBlockType
+} = wp.blocks;
+registerBlockType(`${_utils_config__WEBPACK_IMPORTED_MODULE_1__.PREFIX}/test`, {
+  title: 'Testing Block',
+  description: 'Test block',
+  category: 'wds-blocks',
+
+  edit() {
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "relative bg-gray-800"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+      className: "w-full h-full object-cover",
+      src: "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply",
+      alt: ""
+    })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "md:ml-auto md:w-1/2 md:pl-10"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
+      className: "text-base font-semibold uppercase tracking-wider text-gray-300"
+    }, "Award winning support"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+      className: "mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl"
+    }, "We\u2019re here to help"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+      className: "mt-3 text-lg text-gray-300"
+    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "mt-8"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "inline-flex rounded-md shadow"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+      href: "#",
+      className: "inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+    }, "Visit the help center", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(ExternalLinkIcon, {
+      className: "-mr-1 ml-3 h-5 w-5 text-gray-400",
+      "aria-hidden": "true"
+    })))))));
+  },
+
+  save() {
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "relative bg-gray-800"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+      className: "w-full h-full object-cover",
+      src: "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply",
+      alt: ""
+    })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "md:ml-auto md:w-1/2 md:pl-10"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
+      className: "text-base font-semibold uppercase tracking-wider text-gray-300"
+    }, "Award winning support"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+      className: "mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl"
+    }, "We\u2019re here to help"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+      className: "mt-3 text-lg text-gray-300"
+    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "mt-8"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "inline-flex rounded-md shadow"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+      href: "#",
+      className: "inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+    }, "Visit the help center", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(ExternalLinkIcon, {
+      className: "-mr-1 ml-3 h-5 w-5 text-gray-400",
+      "aria-hidden": "true"
+    })))))));
+  }
+
+});
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -5705,9 +5794,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./blocks/carousel */ "./src/blocks/carousel/index.js");
 /* harmony import */ var _blocks_carousel_slide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./blocks/carousel-slide */ "./src/blocks/carousel-slide/index.js");
 /* harmony import */ var _blocks_starter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./blocks/starter */ "./src/blocks/starter/index.js");
-/* harmony import */ var _variations_cover__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./variations/cover */ "./src/variations/cover/index.js");
-/* harmony import */ var _variations_columns__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./variations/columns */ "./src/variations/columns/index.js");
-/* harmony import */ var tailwindcss_tailwind_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tailwindcss/tailwind.css */ "./node_modules/tailwindcss/tailwind.css");
+/* harmony import */ var _blocks_test__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./blocks/test */ "./src/blocks/test/index.js");
+/* harmony import */ var _variations_cover__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./variations/cover */ "./src/variations/cover/index.js");
+/* harmony import */ var _variations_columns__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./variations/columns */ "./src/variations/columns/index.js");
+/* harmony import */ var tailwindcss_tailwind_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tailwindcss/tailwind.css */ "./node_modules/tailwindcss/tailwind.css");
 /**
  * WDS Blocks
  *
@@ -5718,6 +5808,7 @@ __webpack_require__.r(__webpack_exports__);
  * All blocks should be included here since this is the file that
  * Webpack is compiling as the input file.
  */
+
 
 
 

@@ -96,7 +96,7 @@ function test_register_blocks() {
 
 	// Array of block created in this plugin.
 	$blocks = [
-		'test/static'
+		'test/tailwind'
 	];
 	
 	// Loop through $blocks and register each block with the same script and styles.
