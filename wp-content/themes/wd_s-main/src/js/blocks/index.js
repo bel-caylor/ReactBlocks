@@ -6,4 +6,4 @@
 
 // Custom Gutenberg Blocks.
 // import './wd';
-import './test';
+// import './test';
