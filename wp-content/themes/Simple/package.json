@@ -1,5 +1,5 @@
 {
-  "name": "Simple",
+  "name": "simple",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@wordpress/scripts": "^18.0.1"
+  },
+  "dependencies": {
+    "url-loader": "^4.1.1"
   }
 }

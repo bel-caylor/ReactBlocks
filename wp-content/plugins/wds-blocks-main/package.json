@@ -1,0 +1,71 @@
+{
+	"name": "wds-blocks",
+	"version": "2.2.3",
+	"private": true,
+	"description": "A block starter for WebDevStudios projects.",
+	"author": "WebDevStudios",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"Gutenberg"
+	],
+	"homepage": "https://github.com/WebDevStudios/WDS-Blocks#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WebDevStudios/WDS-Blocks"
+	},
+	"bugs": {
+		"url": "https://github.com/WebDevStudios/WDS-Blocks/issues"
+	},
+	"engines": {
+		"node": ">=14",
+		"npm": ">=7"
+	},
+	"main": "src/index.js",
+	"dependencies": {
+		"@glidejs/glide": "^3.4.1",
+		"@wordpress/block-editor": "^7.0.2",
+		"@wordpress/blocks": "^11.1.0",
+		"@wordpress/components": "^17.0.0",
+		"@wordpress/compose": "^5.0.2",
+		"@wordpress/data": "^6.1.0",
+		"@wordpress/element": "^4.0.1",
+		"@wordpress/hooks": "^3.2.0",
+		"@wordpress/i18n": "^4.2.2",
+		"classnames": "^2.3.1",
+		"glob": "^7.1.7",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@arkweid/lefthook": "^0.7.6",
+		"@wordpress/prettier-config": "^1.1.1",
+		"@wordpress/scripts": "^18.0.1",
+		"autoprefixer": "^10.3.5",
+		"eslint": "^7.32.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"ignore-emit-webpack-plugin": "^2.0.6",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.3.7",
+		"prettier": "npm:wp-prettier@^2.2.1-beta-1",
+		"stylelint": "^13.13.1",
+		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-config-wordpress": "^17.0.0",
+		"tailwindcss": "^2.2.15"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"dev": "wp-scripts start",
+		"format": "run-p format:*",
+		"format:css": "npx prettier '**/*.scss' --write && npm run lint:css -- --fix",
+		"format:js": "wp-scripts format && npm run lint:js -- --fix",
+		"format:md": "npx markdownlint-cli . --fix",
+		"format:php": "composer run-script format",
+		"lint": "run-p lint:*",
+		"lint:css": "wp-scripts lint-style '**/*.scss'",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md": "wp-scripts lint-md-docs",
+		"lint:php": "composer run-script lint",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"start": "wp-scripts start"
+	}
+}

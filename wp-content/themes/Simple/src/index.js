@@ -1,13 +1,19 @@
-const { registerBlockType } = wp.blocks;
+/**
+ * Import blocks as components.
+ */
+import "./01-static";
 
-registerBlockType('simple/custom-block', {
-    title: 'Simple Block',
-    description: 'Test Simple Block',
-    category: 'text',
-    edit: () => (
-        <div>Hello</div>
-    ),
-    save: () => (
-        <div>Hello</div>
-    )
-});
+
+// const { registerBlockType } = wp.blocks;
+
+// registerBlockType('simple/test', {
+//     title: 'Simple Block',
+//     description: 'Test Simple Block',
+//     category: 'simple',
+//     edit: () => (
+//         <div>Hello</div>
+//     ),
+//     save: () => (
+//         <div>Hello</div>
+//     )
+// });
